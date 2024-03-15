@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GModDedicatedServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="dspath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="steamcmdpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="port" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">27015</Value>
+    </Setting>
+    <Setting Name="map" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gm_construct</Value>
+    </Setting>
+    <Setting Name="maxplayers" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">32</Value>
+    </Setting>
+    <Setting Name="hostname" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GModServer | YourRP</Value>
+    </Setting>
+    <Setting Name="gamemode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">yourrp</Value>
+    </Setting>
+    <Setting Name="workshopid" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="othercmds" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="rconpassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="game" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Garry's Mod [4020]</Value>
+    </Setting>
+    <Setting Name="language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUTO</Value>
+    </Setting>
+    <Setting Name="loadingurl" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="fixedconsolesize" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="alwaysontop" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="restartcode" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
