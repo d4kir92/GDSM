@@ -2,3 +2,5 @@
 * text=auto
 .editorconfig
 .vs
+**/bin
+**/obj
