@@ -35,7 +35,7 @@ namespace GModDedicatedServer
 
         /* VERSION */
         VERSION Version { get; set; } = new VERSION();
-        public string ver = "4,0";
+        public string ver = "4,1";
 
         public void InitLanguage(string ls = "EN-EN")
         {
@@ -1595,6 +1595,11 @@ namespace GModDedicatedServer
         private void Lbl_sizecache_Click(object sender, EventArgs e)
         {
             CalculateCacheSize();
+        }
+
+        private void lbl_version_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

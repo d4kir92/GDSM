@@ -489,7 +489,7 @@ namespace GModDedicatedServer
             linklbl_tutorials.Location = new System.Drawing.Point(320, 157);
             linklbl_tutorials.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             linklbl_tutorials.Name = "linklbl_tutorials";
-            linklbl_tutorials.Size = new System.Drawing.Size(52, 15);
+            linklbl_tutorials.Size = new System.Drawing.Size(53, 15);
             linklbl_tutorials.TabIndex = 24;
             linklbl_tutorials.TabStop = true;
             linklbl_tutorials.Text = "Tutorials";
@@ -503,7 +503,7 @@ namespace GModDedicatedServer
             lbl_porttext.Location = new System.Drawing.Point(320, 140);
             lbl_porttext.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             lbl_porttext.Name = "lbl_porttext";
-            lbl_porttext.Size = new System.Drawing.Size(262, 13);
+            lbl_porttext.Size = new System.Drawing.Size(261, 13);
             lbl_porttext.TabIndex = 23;
             lbl_porttext.Text = "<= This port need to be forwarded (public server)";
             // 
@@ -553,7 +553,7 @@ namespace GModDedicatedServer
             lbl_servercfg.Location = new System.Drawing.Point(4, 374);
             lbl_servercfg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             lbl_servercfg.Name = "lbl_servercfg";
-            lbl_servercfg.Size = new System.Drawing.Size(349, 15);
+            lbl_servercfg.Size = new System.Drawing.Size(348, 15);
             lbl_servercfg.TabIndex = 22;
             lbl_servercfg.Text = "server.cfg (Config File, for more settings, example: sv_loadingurl)";
             // 
@@ -575,7 +575,7 @@ namespace GModDedicatedServer
             lbl_maxplayers.Location = new System.Drawing.Point(0, 121);
             lbl_maxplayers.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             lbl_maxplayers.Name = "lbl_maxplayers";
-            lbl_maxplayers.Size = new System.Drawing.Size(67, 15);
+            lbl_maxplayers.Size = new System.Drawing.Size(66, 15);
             lbl_maxplayers.TabIndex = 9;
             lbl_maxplayers.Text = "MaxPlayers";
             // 
@@ -744,7 +744,7 @@ namespace GModDedicatedServer
             label2.Location = new System.Drawing.Point(4, 130);
             label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(528, 15);
+            label2.Size = new System.Drawing.Size(529, 15);
             label2.TabIndex = 12;
             label2.Text = "This is the Dedicated Server, when the game has an update, you may also need to update the server";
             // 
@@ -925,7 +925,7 @@ namespace GModDedicatedServer
             label1.Location = new System.Drawing.Point(4, 99);
             label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(467, 15);
+            label1.Size = new System.Drawing.Size(468, 15);
             label1.TabIndex = 7;
             label1.Text = "This is Steam as a Console (SteamCMD), it is required to download the Dedicated Server";
             // 
@@ -1024,7 +1024,7 @@ namespace GModDedicatedServer
             lbl_allservers.Location = new System.Drawing.Point(13, 440);
             lbl_allservers.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             lbl_allservers.Name = "lbl_allservers";
-            lbl_allservers.Size = new System.Drawing.Size(71, 15);
+            lbl_allservers.Size = new System.Drawing.Size(70, 15);
             lbl_allservers.TabIndex = 11;
             lbl_allservers.Text = "LID_xservers";
             // 
@@ -1147,7 +1147,7 @@ namespace GModDedicatedServer
             lbl_version.Name = "lbl_version";
             lbl_version.Size = new System.Drawing.Size(350, 21);
             lbl_version.TabIndex = 0;
-            lbl_version.Text = "VERSION";
+            lbl_version.Text = "LOADING VERSION";
             lbl_version.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // p_version

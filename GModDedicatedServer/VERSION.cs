@@ -30,21 +30,28 @@ namespace GModDedicatedServer
 
         public async Task CheckVersion()
         {
-            string url = "https://docs.google.com/spreadsheets/d/14DffNs6nCskTohLTBi-yX01b3ADcEuuqDhugURHcIWQ";
-            string ret = await HTTP.Get(url);
-
-            ret = ret[(ret.IndexOf('*') + 1)..];
-            ret = ret[..ret.IndexOf('#')];
-
-            onlineVersion = ret;
-
-            if (onlineVersion != localVersion)
+            try
             {
-                outdated = true;
+                string url = "https://docs.google.com/spreadsheets/d/1fscnGWH1eowOBIckr9wHIALuu3CxC5hScUzAobkjEMA";
+                string ret = await HTTP.Get(url);
+
+                ret = ret[(ret.IndexOf('*') + 1)..];
+                ret = ret[..ret.IndexOf('#')];
+
+                onlineVersion = ret;
+
+                if (onlineVersion != localVersion)
+                {
+                    outdated = true;
+                }
+                else if (onlineVersion == localVersion)
+                {
+                    outdated = false;
+                }
             }
-            else if (onlineVersion == localVersion)
+            catch
             {
-                outdated = false;
+
             }
         }
     }
